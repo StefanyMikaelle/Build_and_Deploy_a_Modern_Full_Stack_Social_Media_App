@@ -46,3 +46,54 @@ lMedia_backend
 :heavy_check_mark: *sanity start*
 
 :heavy_check_mark: *sanity manage*
+
+- [ ] **2) Programação** 
+
+:question: **TESTE 1**
+
+:heavy_check_mark: socialMedia_backend -> schemas -> user.js
+
+```
+export default{
+    name:'user',
+    title:'User',
+    type:'document',
+    fields:[
+        {
+           name: 'userName',
+           title: 'UserName',
+           type: 'string'
+        },
+        {
+            name: 'image',
+            title: 'Image',
+            type: 'string'
+         },
+    ],
+};
+```
+:heavy_check_mark: socialMedia_backend -> schemas -> schema.js
+
+```
+// First, we must import the schema creator
+import createSchema from 'part:@sanity/base/schema-creator'
+
+// Then import schema types from any plugins that might expose them
+import schemaTypes from 'all:part:@sanity/base/schema-type'
+import user from './user'
+
+
+// Then we give our schema to the builder and provide the result to Sanity
+export default createSchema({
+  // We name our schema
+  name: 'default',
+  // Then proceed to concatenate our document type
+  // to the ones provided by any plugins that are installed
+  types: schemaTypes.concat([ 
+    user
+  ]),
+});
+
+```
+
+:sparkles: Funcionou!!!
