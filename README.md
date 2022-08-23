@@ -24,11 +24,24 @@
 
 :heavy_check_mark: instalar sanity:		*npm install -g @sanity/clinpm install -g @sanity/cli* 
 
+Obs.: não funcionou esse comando acima no terminal então usei o comando sugerido no vídeo *npx sanity init*
+
 :heavy_check_mark: executar sanity: *sanity init --project-plan boosted-free-2021-12-08* 
 
 :heavy_check_mark: Select project to use *Create new project*
 
 :heavy_check_mark: Your project name: *socialMedia_jsm*
+
+
+> ? Use the default dataset configuration? *Yes*
+
+> Creating dataset
+
+> ? Project output path: C:\Users\phenr\OneDrive\Área de Trabalho\Stefany\Projetos_Programacao\Build_and_Deploy_a_Modern_Full_Stack_Social_Media_App\socia
+lMedia_backend
+
+> ? Select project template *Clean project with no predefined schemas*
+
 
 :heavy_check_mark: *sanity start*
 
