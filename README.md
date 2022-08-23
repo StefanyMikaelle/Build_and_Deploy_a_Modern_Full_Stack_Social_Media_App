@@ -47,7 +47,7 @@ lMedia_backend
 
 :heavy_check_mark: *sanity manage*
 
-- [ ] **2) Programação** 
+- [X] **2) Programação Backend** 
 
 :question: **TESTE 1**
 
@@ -244,3 +244,7 @@ export default createSchema({
 ```
 
 :sparkles: Funcionou!!!
+
+🎉 :tada: BACKEND CONCLUÍDO!
+
+- [ ] **3) Programação Frontend** 
