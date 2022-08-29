@@ -248,3 +248,21 @@ export default createSchema({
 🎉 :tada: BACKEND CONCLUÍDO!
 
 - [ ] **3) Programação Frontend** 
+
+:heavy_check_mark: Comandos no terminal:
+
+:heavy_check_mark: mudar diretório: cd .\socialmedia_frontend\
+
+[Link to Install Tailwind CSS](https://tailwindcss.com/docs/guides/create-react-app) 
+
+OBS.: Tive que colocar nome da pasta tudo em minusculo para não ter erro
+
+
+:heavy_check_mark: npx create-react-app ./
+
+:heavy_check_mark: npm install -D tailwindcss postcss autoprefixer
+
+:heavy_check_mark: npx tailwindcss init -p
+
+
+
