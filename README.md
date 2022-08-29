@@ -268,3 +268,4 @@ OBS.: Tive que colocar nome da pasta tudo em minusculo para não ter erro
 - [ ] **4) Programação Frontend** 
 
 - No arquivo tailwind.config.js
+
