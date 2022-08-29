@@ -247,7 +247,7 @@ export default createSchema({
 
 🎉 :tada: BACKEND CONCLUÍDO!
 
-- [ ] **3) Programação Frontend** 
+- [X] **3) Criar pasta e baixar Tailwind CSS**
 
 :heavy_check_mark: Comandos no terminal:
 
@@ -265,4 +265,6 @@ OBS.: Tive que colocar nome da pasta tudo em minusculo para não ter erro
 :heavy_check_mark: npx tailwindcss init -p
 
 
+- [ ] **4) Programação Frontend** 
 
+- No arquivo tailwind.config.js
